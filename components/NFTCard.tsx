@@ -109,7 +109,7 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                                     })
                                 )}
                                 onTransactionConfirmed={() => {
-                                    alert("Staked!");
+                                    alert("APE EATING BANANAS!");
                                     setIsModalOpen(false);
                                     refetch();
                                     refecthStakedInfo();
