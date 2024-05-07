@@ -13,7 +13,7 @@ export default function Home() {
       width: "500px",
     }}>
       <h1>BASE APES EAT BANANAS</h1>
-      <h1>  </h1>
+      <h1> 🍌 </h1>
       <ConnectEmbed
         client={client}
         chain={chain}
