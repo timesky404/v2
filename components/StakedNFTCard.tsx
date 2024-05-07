@@ -47,8 +47,8 @@ export const StakedNFTCard: React.FC<StakedNFTCardProps> = ({ tokenId, refetchSt
                 }}
                 style={{
                     border: "none",
-                    backgroundColor: "#0052FE",
-                    color: "#fff",
+                    backgroundColor: "#fff",
+                    color: "#0052FE",
                     padding: "10px",
                     borderRadius: "10px",
                     cursor: "pointer",

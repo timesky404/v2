@@ -32,8 +32,8 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                 onClick={() => setIsModalOpen(true)}
                 style={{
                     border: "none",
-                    backgroundColor: "#0052FE",
-                    color: "#fff",
+                    backgroundColor: "#fff",
+                    color: "#0052FE",
                     padding: "10px",
                     borderRadius: "10px",
                     cursor: "pointer",
@@ -54,7 +54,7 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                 }}>
                     <div style={{
                         minWidth: "300px",
-                        backgroundColor: "#0052FE",
+                        backgroundColor: "#fff",
                         padding: "20px",
                         borderRadius: "10px",
                         display: "flex",
@@ -71,7 +71,7 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                                 style={{
                                     border: "none",
                                     backgroundColor: "transparent",
-                                    color: "#fff",
+                                    color: "#0052FE",
                                     cursor: "pointer"
                                 }}
                             >CLOSE</button>
