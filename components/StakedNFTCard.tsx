@@ -43,7 +43,7 @@ export const StakedNFTCard: React.FC<StakedNFTCardProps> = ({ tokenId, refetchSt
                 onTransactionConfirmed={() => {
                     refetchOwnedNFTs();
                     refetchStakedInfo();
-                    alert("Withdrawn!");
+                    alert("APE BACK ON YOUR WALLET!");
                 }}
                 style={{
                     border: "none",

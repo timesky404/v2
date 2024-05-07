@@ -70,7 +70,7 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                                 onClick={() => setIsModalOpen(false)}
                                 style={{
                                     border: "none",
-                                    backgroundColor: "transparent",
+                                    backgroundColor: "#0052FE",
                                     color: "#0052FE",
                                     cursor: "pointer"
                                 }}
@@ -117,7 +117,7 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                                 style={{
                                     width: "100%"
                                 }}
-                            >EAT BANANAS</TransactionButton>
+                            >START EATING BANANAS</TransactionButton>
                         )}
                         
                     </div>

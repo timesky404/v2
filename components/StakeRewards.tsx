@@ -50,7 +50,7 @@ export const StakeRewards = () => {
                     })
                 )}
                 onTransactionConfirmed={() => {
-                    alert("Rewards claimed!")
+                    alert("BANANAS CLAIMED!")
                     refetchStakedInfo();
                     refetchTokenBalance();
                 }}
