@@ -47,7 +47,7 @@ export const StakedNFTCard: React.FC<StakedNFTCardProps> = ({ tokenId, refetchSt
                 }}
                 style={{
                     border: "none",
-                    backgroundColor: "#333",
+                    backgroundColor: "#0052FE",
                     color: "#fff",
                     padding: "10px",
                     borderRadius: "10px",
@@ -55,7 +55,7 @@ export const StakedNFTCard: React.FC<StakedNFTCardProps> = ({ tokenId, refetchSt
                     width: "100%",
                     fontSize: "12px"
                 }}
-            >Withdraw</TransactionButton>
+            >STOP EATING BANANAS</TransactionButton>
         </div>
     )
 };

@@ -39,9 +39,9 @@ export const StakeRewards = () => {
     return (
         <div style={{ width: "100%", margin: "20px 0", display: "flex", flexDirection: "column" }}>
             {!isTokenBalanceLoading && (
-                <p>Wallet Balance: {toEther(BigInt(tokenBalance!.toString()))}</p>
+                <p>BANANAS BALANCE: {toEther(BigInt(tokenBalance!.toString()))}</p>
             )}
-            <h2 style={{ marginBottom: "20px"}}>Stake Rewards: {stakedInfo && toEther(BigInt(stakedInfo[1].toString()))}</h2>
+            <h2 style={{ marginBottom: "20px"}}>BANANAS REWARDS: {stakedInfo && toEther(BigInt(stakedInfo[1].toString()))}</h2>
             <TransactionButton
                 transaction={() => (
                     prepareContractCall({
@@ -56,15 +56,15 @@ export const StakeRewards = () => {
                 }}
                 style={{
                     border: "none",
-                    backgroundColor: "#333",
-                    color: "#fff",
+                    backgroundColor: "#fff",
+                    color: "#0052FE",
                     padding: "10px",
                     borderRadius: "10px",
                     cursor: "pointer",
                     width: "100%",
                     fontSize: "12px"
                 }}
-            >Claim Rewards</TransactionButton>
+            >CLAIM BANANAS</TransactionButton>
         </div>
     )
 };

@@ -61,7 +61,7 @@ export const Staking = () => {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                backgroundColor: "#151515",
+                backgroundColor: "#0052FE",
                 borderRadius: "8px",
                 width: "500px",
                 padding: "20px",
@@ -78,7 +78,7 @@ export const Staking = () => {
                     margin: "20px 0",
                     width: "100%"
                 }}>
-                    <h2 style={{ marginRight: "20px"}}>Claim NFT to Stake</h2>
+                    <h2 style={{ marginRight: "20px"}}>CLAIM APE TO EAT BANANAS</h2>
                     <TransactionButton
                         transaction={() => (
                             claimTo({
@@ -88,27 +88,27 @@ export const Staking = () => {
                             })
                         )}
                         onTransactionConfirmed={() => {
-                            alert("NFT claimed!");
+                            alert("APE CLAIMED!");
                             getOwnedNFTs();
                         }}
                         style={{
                             fontSize: "12px",
-                            backgroundColor: "#333",
-                            color: "#fff",
+                            backgroundColor: "#fff",
+                            color: "#0052FE",
                             padding: "10px 20px",
                             borderRadius: "10px",
                         }}
-                    >Claim NFT</TransactionButton>
+                    >CLAIM APE</TransactionButton>
                 </div>
                 <hr style={{
                     width: "100%",
-                    border: "1px solid #333"
+                    border: "1px solid #fff"
                 }}/>
                 <div style={{ 
                     margin: "20px 0",
                     width: "100%"
                 }}>
-                    <h2>Owned NFTs</h2>
+                    <h2>OWNED APES</h2>
                     <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "500px"}}>
                         {ownedNFTs && ownedNFTs.length > 0 ? (
                             ownedNFTs.map((nft) => (
@@ -120,16 +120,16 @@ export const Staking = () => {
                                 />
                             ))
                         ) : (
-                            <p>You own 0 NFTs</p>
+                            <p>YOU OWN 0 APES WTF</p>
                         )}
                     </div>
                 </div>
                 <hr style={{
                     width: "100%",
-                    border: "1px solid #333"
+                    border: "1px solid #fff"
                 }}/>
                 <div style={{ width: "100%", margin: "20px 0" }}>
-                    <h2>Staked NFTs</h2>
+                    <h2>APES EATING BANANAS</h2>
                     <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", width: "500px"}}>
                         {stakedInfo && stakedInfo[0].length > 0 ? (
                             stakedInfo[0].map((nft: any, index: number) => (
@@ -141,13 +141,13 @@ export const Staking = () => {
                                 />
                             ))
                         ) : (
-                            <p style={{ margin: "20px" }}>No NFTs staked</p>
+                            <p style={{ margin: "20px" }}>NO APES EATING BANANAS</p>
                         )}
                     </div>
                 </div>
                 <hr style={{
                     width: "100%",
-                    border: "1px solid #333"
+                    border: "1px solid #fff"
                 }}/>
                 <StakeRewards />  
             </div>

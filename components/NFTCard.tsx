@@ -32,14 +32,14 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                 onClick={() => setIsModalOpen(true)}
                 style={{
                     border: "none",
-                    backgroundColor: "#333",
+                    backgroundColor: "#0052FE",
                     color: "#fff",
                     padding: "10px",
                     borderRadius: "10px",
                     cursor: "pointer",
                     width: "100%"
                 }}
-            >Stake</button>
+            >EAT BANANAS</button>
             {isModalOpen && (
                 <div style={{
                     position: "fixed",
@@ -54,7 +54,7 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                 }}>
                     <div style={{
                         minWidth: "300px",
-                        backgroundColor: "#222",
+                        backgroundColor: "#0052FE",
                         padding: "20px",
                         borderRadius: "10px",
                         display: "flex",
@@ -74,9 +74,9 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                                     color: "#fff",
                                     cursor: "pointer"
                                 }}
-                            >Close</button>
+                            >CLOSE</button>
                         </div>
-                        <h3 style={{ margin: "10px 0" }}>You about to stake:</h3>
+                        <h3 style={{ margin: "10px 0" }}>APE ABOUT TO EAT BANANAS:</h3>
                         <MediaRenderer
                             client={client}
                             src={nft.metadata.image}
@@ -98,7 +98,7 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                                     width: "100%"
                                 }}
                                 onTransactionConfirmed={() => setIsApproved(true)}
-                            >Approve</TransactionButton>
+                            >APPROVE</TransactionButton>
                         ) : (
                             <TransactionButton
                                 transaction={() => (
@@ -117,7 +117,7 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                                 style={{
                                     width: "100%"
                                 }}
-                            >Stake</TransactionButton>
+                            >EAT BANANAS</TransactionButton>
                         )}
                         
                     </div>
