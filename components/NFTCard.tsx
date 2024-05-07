@@ -70,7 +70,7 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                                 onClick={() => setIsModalOpen(false)}
                                 style={{
                                     border: "none",
-                                    backgroundColor: "#0052FE",
+                                    backgroundColor: "transparent",
                                     color: "#0052FE",
                                     cursor: "pointer"
                                 }}
@@ -98,7 +98,7 @@ export const NFTCard = ({ nft, refetch, refecthStakedInfo }: OwnedNFTsProps) => 
                                     width: "100%"
                                 }}
                                 onTransactionConfirmed={() => setIsApproved(true)}
-                            >APPROVE</TransactionButton>
+                            >EAT BANANAS</TransactionButton>
                         ) : (
                             <TransactionButton
                                 transaction={() => (
