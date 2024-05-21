@@ -78,7 +78,7 @@ export const Staking = () => {
                     margin: "20px 0",
                     width: "100%"
                 }}>
-                    <h2 style={{ marginRight: "20px"}}>CLAIM APE TO EAT BANANAS</h2>
+                    <h2 style={{ marginRight: "20px"}}>MINT APE TO EAT BANANAS</h2>
                     <TransactionButton
                         transaction={() => (
                             claimTo({
