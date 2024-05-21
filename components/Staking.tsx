@@ -98,7 +98,7 @@ export const Staking = () => {
                             padding: "10px 20px",
                             borderRadius: "10px",
                         }}
-                    >CLAIM APE</TransactionButton>
+                    >MINT APE 0.015ETH</TransactionButton>
                 </div>
                 <hr style={{
                     width: "100%",
